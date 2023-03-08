@@ -5,6 +5,7 @@ import { useState,useEffect } from "react";
 import Homepage from './page/Homepage'
 import NotFoundPage from './page/NotFoundPage';
 import ComunityPage from './page/ComunityPage';
+import BlogsPost from './page/BlogsPost';
 
 const MyRoute = () => {
 
@@ -38,7 +39,8 @@ const MyRoute = () => {
         :
         <Switch>
             <Route path="/" exact component={Homepage}/>
-            <Route path="/community" component={ComunityPage} />
+            {/* <Route path="/community" component={ComunityPage} /> */}
+            <Route path="/blogspost" component={BlogsPost}/>
             <Route path="*" component={NotFoundPage} />
         </Switch>
         }

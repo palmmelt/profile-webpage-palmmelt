@@ -20,7 +20,7 @@ const WelcomePage = () => {
             </div>
             <p className='md:text-2xl text-xl font-bold text-gray-500 mt-2.5'>You can know me on this website and can comment.</p>
         
-            <a href='/community' target='_blank' className='hover:bg-[#ff5e00] bg-[#ff985c] w-[200px] text-black rounded-2xl font-medium my-6 mx-auto hover:scale-110 duration-300 py-2 z-20 cursor-pointer' >Blogs Post <i className="fa-solid fa-comment"></i></a>
+            <a href='/blogspost' target='_blank' className='hover:bg-[#ff5e00] bg-[#ff985c] w-[200px] text-black rounded-2xl font-medium my-6 mx-auto hover:scale-110 duration-300 py-2 z-20 cursor-pointer' >Blogs Post <i className="fa-solid fa-comment"></i></a>
             {/* <p className='md:text-2xl text-xl font-bold text-gray-500 mt-2.5 absolute bottom-0 right-0 m-3 mr-10'>January/23/2023 <i className="fa-solid fa-wrench"></i></p> */}
             <ul className="circles z-10">
                     <li></li>
