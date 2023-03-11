@@ -20,7 +20,7 @@ const MyRoute = () => {
   },[])
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={'profile-webpage-palmmelt'}>
     <div >
       {
         loading?

@@ -6,7 +6,7 @@ const WelcomePage = () => {
   return (
     <div className='text-white m-6 mt-10 p-1'>
       {/* wrapper */}
-        <div className='area max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center '>
+        <div className='area max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center bg-white'>
             <p className='text-[#ff5e00] font-bold p-2 text-3xl'>Hello, this site is me.</p>
             <h1 className='md:text-7xl sm:text-6xl text-4xl font bold md:py-6'>You can see how I grow up within this website. This site is one of my creations</h1>
             <div className='flex justify-center items-center'>
