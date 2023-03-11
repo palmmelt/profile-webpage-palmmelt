@@ -4,7 +4,7 @@ import './WelcomePage.css'
 
 const WelcomePage = () => {
   return (
-    <div className='text-white m-7 mt-10 p-0.5'>
+    <div className='text-white m-6 mt-10 p-1'>
       {/* wrapper */}
         <div className='area max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center '>
             <p className='text-[#ff5e00] font-bold p-2 text-3xl'>Hello, this site is me.</p>
